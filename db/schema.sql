@@ -1,10 +1,12 @@
-DROP DATABASE IF EXISTS burgerDB;
+### Schema
+
 CREATE DATABASE burgerDB;
 USE burgerDB;
 
 CREATE TABLE burgers
 (
-    id INT NOT NULL AUTO_INCREMENT PRIMARY KEY,
+    id INT NOT NULL AUTO_INCREMENT,
     name VARCHAR(250) NOT NULL,
-    eaten BOOLEAN DEFAULT false
+    eaten BOOLEAN DEFAULT false,
+    PRIMARY KEY (id)
 );

@@ -1,8 +1,8 @@
-const express = require("express)")
+const express = require("express")
 const PORT = process.env.PORT || 8080
 const app = express()
-const exhbs = require("express-handlebars")
-// const routes = require("./controllers/burgerController.js")
+const exphbs = require("express-handlebars")
+const routes = require("./controllers/burgersController.js")
 
 app.engine("handlebars", exphbs({defaultLayout: "main"}))
 app.set("view engine", "handlebars")
