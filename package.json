@@ -1,14 +1,8 @@
 {
-  "name": "EatDaBurger",
+  "name": "eatdaburger",
   "version": "1.0.0",
   "description": "",
   "main": "server.js",
-  "dependencies": {
-    "express": "^4.17.1",
-    "express-handlebars": "^5.2.0",
-    "mysql": "^2.18.1"
-  },
-  "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js"
@@ -17,11 +11,15 @@
     "type": "git",
     "url": "git+https://github.com/Laika-Beats/Eat-Da-Burger.git"
   },
-  "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/Laika-Beats/Eat-Da-Burger/issues"
   },
-  "homepage": "https://github.com/Laika-Beats/Eat-Da-Burger#readme"
+  "homepage": "https://github.com/Laika-Beats/Eat-Da-Burger#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "express-handlebars": "^5.2.0",
+    "mysql": "^2.18.1"
+  }
 }
