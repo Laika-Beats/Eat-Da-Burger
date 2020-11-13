@@ -9,9 +9,11 @@ License
 Contributing
 
 
-Installation: Open this link in your browser of choice: https://immense-plains-01463.herokuapp.com
+Installation: 
 
-Open this link in your browser of choice: https://laika-beats.github.io/WorkDayScheduler/
+Open this link in your browser of choice: https://immense-plains-01463.herokuapp.com
+
+
 
 Usage:
 
